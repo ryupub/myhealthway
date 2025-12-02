@@ -1,0 +1,651 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<script type="text/javascript" src="https://www.myhealthway.go.kr/portal/js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="https://www.myhealthway.go.kr/portal/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://www.myhealthway.go.kr/portal/js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="https://www.myhealthway.go.kr/portal/js/jcarousel.responsive.js"></script>
+	<script type="text/javascript" src="https://www.myhealthway.go.kr/portal/js/renew.js"></script>
+	<script type="text/javascript" src="https://www.myhealthway.go.kr/portal/js/index.js"></script>
+	<script type="text/javascript" src="https://www.myhealthway.go.kr/portal/js/slick.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="https://www.myhealthway.go.kr/portal/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.myhealthway.go.kr/portal/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.myhealthway.go.kr/portal/css/index.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.myhealthway.go.kr/portal/css/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.myhealthway.go.kr/portal/css/renew.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.myhealthway.go.kr/portal/css/renew_cont.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.myhealthway.go.kr/portal/css/slick.css"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<title>건강고속도로</title>
+
+	<!-- 추가 css, js -->
+	<link rel="stylesheet" type="text/css" href="../css/layout.css">
+	<link rel="stylesheet" type="text/css" href="../css/content.css">
+	<script type="text/javascript" src="../js/commonUI.js"></script>
+	
+	
+</head>
+
+<body>
+	<div class="skip-nav">
+		<a href="#content"><span>본문 바로가기</span></a>
+	</div>
+	
+	<!-- 헤더 -->
+	<header id="header">
+		<div class="inner">
+			<div class="top_nav">
+				<h1 class="logo"><a href="#"><img src="../images/renew/logo.png" alt="건강정보고속도로"></a></h1>
+				<div class="utility">
+					<ul class="utilmenu">
+						<li><a href="javascript:void(0);">로그인</a></li>
+						<li><a href="javascript:void(0);">회원가입</a></li>
+					</ul>
+					<a href="#" class="btn_mobile btn_moGnb"><span class="blind">모바일메뉴</span></a>
+				</div>
+			</div>
+			<div id="gnb">
+				<ul>
+					<li class="active">
+						<a href="#" class="gnb_depth">서비스 소개</a>
+						<ul class="sub_depth">
+							<li><a href="#">서비스 소개</a></li>
+							<li><a href="#">데이터 종류</a></li>
+							<li><a href="#">관련기관</a></li>
+							<li><a href="#">관련 법률</a></li>
+							<li><a href="#">보호 및 활용</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="gnb_depth">이용 안내</a>
+						<ul class="sub_depth">
+							<li><a href="#">활용서비스 공유/<br>다운로드 이력조회</a></li>
+							<li><a href="#">장기기증 희망 신청</a></li>
+							<li><a href="#">진료기록 열람내역 조회</a></li>
+							<li><a href="#">웹뷰어 이용신청</a></li>
+							<li><a href="#">운영전환 신청</a></li>
+							<li><a href="#">데이터 제공 신청</a></li>
+							<li><a href="#">  참여<br>의료기관 조회</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="gnb_depth">의료 마이데이터</a>
+						<ul class="sub_depth">
+							<li><a href="#">마이데이터 활용앱 다운로드</a></li>
+							<li><a href="#">테스트베드</a></li>
+							<li><a href="#">의료데이터 제공 및 활용</a></li>
+							<li><a href="#">전송요구권</a></li>
+							<li><a href="#">API</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="gnb_depth">지원</a>
+						<ul class="sub_depth">
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">자주 묻는 질문(개인)</a></li>
+							<li><a href="#">자주 묻는 질문(기관)</a></li>
+							<li><a href="#">자료실</a></li>
+							<li><a href="#">홍보관</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>  
+			<!-- //gnb -->
+		</div>
+	</header>
+	<!-- 헤더 -->
+
+
+
+	<!-- 컨텐츠 -->
+	<div class="wrap_cont">
+		<div class="wrap_content">
+			<div class="right_box">
+
+				<div class="navigation_box">
+					<div class="navigation">
+						<span><a href="/portal/index?page=Individual/Portal/MediMyData/MydataService">서비스소개</a></span>
+						<span class="arrow"></span>
+						<span><a href="/portal/index?page=Individual/Portal/MediMyData/MydataService">건강정보 고속도로 서비스란?</a></span>
+					</div>
+				</div>
+				<!-- navigation_box -->
+
+				<div id="content" class="subvisual_box s_visual01">
+					<h2 class="title">건강정보 고속도로 서비스란?</h2>   
+					<div class="description">
+						<p class="txt_01">대한민국 국민이면 국내 어디서나 이용할 수 있습니다.</p>
+						<div  class="txt_02">
+							<p>건강정보 고속도로는 본인의 건강정보를 본인의 동의 하에 원하는 대상에게 정보를 제공하여 의료 등 다양한 분야에 활용할 수 있게 하는 서비스입니다.</p>
+							<p>일반 국민 뿐만 아니라 병,의원 등의 의료 서비스 제공자, 보건의료 관련 기업,연구기관 등에게 도움을 줄 수 있습니다. </p>
+						</div>
+					</div>       
+				</div>
+
+				<div class="contents_box">
+					<div class="cont_mydataService">
+						<h2 class="cont_title">플랫폼 구성</h2>
+						<div class="section section_01">
+							<div class="part_01">
+								<dl>
+									<dt>수집</dt>
+									<dd>개인 건강정보, 의료기관 진료정보, 관련 공공기관 제공정보는 각각의 기관에서 건강정보 고속도로 플랫폼에 연결·전달할 수 있도록 수집하며, 개인 의료서비스 제공을 위한 기본 자료로 활용됩니다.</dd>
+								</dl>
+								<dl>
+									<dt>전송</dt>
+									<dd>수집된 개인 건강정보는 개인 동의 하에 건강정보 고속도로 플랫폼을 통해 전송됩니다. 건강정보 고속도로 플랫폼은 각 의료기관 및 연구기관, 보건의료 관련 기업 및 산업체 등에 모두 연결되어 있으며, 전국 어디서나 정보를 전달할 수 있습니다.</dd>
+								</dl>
+								<dl>
+									<dt>활용</dt>
+									<dd>개인의 동의 하에 전송된 건강정보는 내 건강관리에도 활용하고, 병원과 같은 의료기관 및 연구기관, 보건의료 관련 기업(바이오기업 등) 등 필요한 곳에 제공하여 내 건강과 생활에 도움을 줄 수 있습니다.</dd>
+								</dl>
+							</div>
+							<!-- //part_01 -->
+							<div class="web">
+								<div class="part_02">
+									<div class="panel_group">
+										<div class="panel_01 panel_default">
+											<p class="tit">수집 가능 데이터</p>
+											<div class="box">
+												<dl class="item_01">
+													<dt>의료기관 진료정보</dt>
+													<dd>
+														<p>진료기록, 약물처방, 검사결과 상담기록 의료영상, 알러지 및 부작용</p>
+													</dd>
+												</dl>
+												<dl class="item_02">
+													<dt>개인 건강정보</dt>
+													<dd>
+														<p>맥박, 혈당, 자가기록</p>
+														<p>생활습관, 평소 운동량</p>
+													</dd>
+												</dl>
+												<dl class="item_03">
+													<dt>공공기관 정보</dt>
+													<dd>
+														<p>건강보험, 예방접종예방접종</p>
+														<p>날씨 미세먼지</p>
+														<p>주변환경기록</p>
+														<p>전염병 전파 정보 등</p>
+													</dd>
+												</dl>
+											</div>
+										</div>
+										<div class="panel_02">
+											<p class="tit">건강정보 고속도로</p>
+											<img src="../images/renew/cont_mydataService_img_01.png" alt="GATEWAY 참여주제 인증 개인동의 수집 + 개인선택 활용 네트워크 허브 데이터 연결/서비스 연결">
+											<span class="symbol"></span>
+										</div>
+										<div class="panel_03 panel_default">
+											<p class="tit">활용 서비스</p>
+											<div class="box">
+												<dl>
+													<dt>내 건강정보 내 의사에게</dt>
+													<dd>
+														<p>과거 진료 내역 확인 타 병원 진료정보 공유</p>
+														<p>환자 자가 건강정보와</p>
+														<p>진료정보 통합 진료</p>
+													</dd>
+												</dl>
+												<dl>
+													<dt>내 건강 스스로 챙기기</dt>
+													<dd>
+														<p>운동, 식이, 투약 등 관리</p>
+														<p>혈압, 혈당 등 실시간 모니터링</p>
+														<p>노인환자 폭염, 만성 폐질환자 대기정보 악화 경고</p>
+													</dd>
+												</dl>
+												<dl>
+													<dt>내 건강정보 내 손안에</dt>
+													<dd>
+														<p>개인(가족)건강기록 관리<br> (아동, 노인, 권한 위임 시)</p>
+														<p>진료 및 검사결과 시각화 및 해석</p>
+													</dd>
+												</dl>
+											</div>
+										</div>
+									</div>
+									<!-- //panel_group -->
+								</div>
+								<!-- //part_02 -->
+								<div class="part_03">
+									<p class="tit">요소기술</p>
+									<ul>
+										<li><span>EHR 표준화</span></li>
+										<li><span>데이터 전송</span></li>
+										<li><span>개인인증</span></li>
+										<li><span>결제 서비스</span></li>
+										<li><span>보안 Block Chain</span></li>
+										<li><span>5G <br>Smart Device <br>Wearable Device</span></li>
+										<li><span>Cloud <br>Platform</span></li>
+										<li><span>인공지능</span></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //web -->
+							<div class="mo">
+								<p class="tc"><img src="../images/renew/cont_mydataService_mo_img_01.png" alt="수집 가능 데이터에 의료기관 진료정보(진료기록, 약물처방, 검사결과, 상담기록 의료영상, 알러지 및 부작용), 개인정보(맥박, 혈당, 자가기록, 생활습관, 평소 운동량), 공공기관 정보(건강보험, 예방접종, 날씨 미세먼지, 주변환경기록, 전염병 전파 정보 등)이 있으며 참여주제 인증인 개인동의 수집과 개인선택 활용을 통해 활용 가능한 서비스로는 내 건강정보 내 의사에게(과거 진료 내역 확인, 타 병원 진료정보 공유, 환자 자가 건강정보와 진료정보 통합 진료), 내 건강 스스로 챙기기(운동, 식이, 투약 등 관리, 혈압, 혈당 등 실시간 모니터링, 노인환자 폭염, 만성 폐질환자 대기정보, 악화 경고), 내 건강정보 내 손안에(개인(가족)건강기록 관리, (아동, 노인, 권한 위임 시), 진료 및 검사결과, 시각화 및 해석) 요소기술로 EHR표준화, 데이터 전송, 개인인증, 결제 서비스, 보안 block Chain, 5G smart device wearable device, cloud platform, 인공지능이 있다."></p>
+							</div>
+						</div>
+						<!-- //section_01 -->
+
+						<div class="divider"></div>
+
+						<h2 class="cont_title">구축 체계</h2>
+						<div class="section section_02">
+							<div class="part_01">
+								<p class="summary">건강정보 고속도로 서비스를 위한 건강정보 수집 체계를 마련하고 있습니다.</p>
+								<p class="summary">관, 공공기관이 보유하고 있는 건강정보를 각 기준에 맞추어 수집하고 표준화하여 정보가 원활히 전송될 수 있도록 체계를 만들어나가고 있습니다.</p>
+							</div>
+							<div class="web">
+								<div class="part_02">
+									<div class="panel_group_01">
+										<p class="tit">데이터 제공기관</p>
+										<div class="panel_01">
+											<div class="box">
+												<dl class="item_01">
+													<dt>공공건강데이터</dt>
+													<dd>
+														<p>건강보험공단</p>
+														<p>심사평가원</p>
+														<p>질병관리청</p>
+													</dd>
+												</dl>
+												<dl class="item_02">
+													<dt>병원의료 데이터</dt>
+													<dd>
+														<p>상급종합병원</p>
+														<p>종합병원</p>
+														<p>병의원</p>
+													</dd>
+												</dl>
+												<dl class="item_03">
+													<dt>개인건강 데이터</dt>
+													<dd>
+														<p>라이프로그(PGHD)</p>
+														<p>유전정보</p>
+													</dd>
+												</dl>
+											</div>
+										</div>
+										<div class="panel_02">
+											<div class="item">PHR 서비스 <br>현황조사 및 <br>공동항목 도출</div>
+											<div class="item">국내외 <br>표준 비교</div>
+											<div class="item">전문가 검토 <br>및 대국민<br>설문 반영</div>
+										</div>
+									</div>
+									<!-- //panel_group_01 -->
+									<div class="panel_group_02">
+										<div class="panel_03">
+											<p class="tit">데이터 유형별 수집항목</p>
+											<ul>
+												<li>진료이력</li>
+												<li>건강검진</li>
+												<li>투약이력</li>
+												<li>예방접종</li>
+												<li>라이프 로그</li>
+												<li>유전체</li>
+											</ul>
+										</div>
+										<div class="panel_04">
+											<p class="tit_02">플랫폼 제공 <br>데이터 표준화</p>
+											<table>
+												<caption>플랫폼 제공데이터 표준화</caption>
+												<colgroup>
+													<col style="width:50px"> 
+													<col> 
+													<col> 
+												</colgroup>
+												<thead>
+													<tr>
+														<th scope="col"></th>
+														<th scope="col">데이터값(예시)</th>
+														<th scope="col">적용표준(안)</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th scope="row">진단명</th>
+														<td>E11</td>
+														<td>KCD7</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="panel_05">
+											<p class="tit">데이터 제공기관 참여 유인 마련</p>
+											<ul>
+												<li>인프라 구축비용 지원</li>
+												<li>비용 지불 체계 마련</li>
+												<li>인증·평가 제도 개선</li>
+											</ul>
+										</div>
+									</div>
+									<!-- //panel_group_02 -->
+									<div class="panel_group_03">
+										<div class="panel_06">
+											<p class="txt_01">건강정보<span>고속도로</span></p>
+										</div>
+									</div>
+									<!-- //panel_group_03 -->
+								</div>
+								<!-- //part_02 -->
+							</div>
+							<!-- //web -->
+							<div class="mo">
+								<p class="tc"><img src="../images/renew/cont_mydataService_mo_img_02.png" alt="데이터 제공기관으로 공공건강데이터(건강보험공단, 심사평가원, 질병관리청), 병원의료 데이터(상급종합병원, 종합병원, 병의원), 개인건강 데이터(라이프로그(PGHD), 유전정보)가 있으며 PHR 서비스 현황조사 및 공동항목 도출, 국내외 표준 비교, 전문가 검토 및 대국민 설문 반영을 통해 데이터 유형별 수집항목(진료이력, 건강검진, 투약이력, 예방접종, 라이프 로그, 유전체)을 플랫폼 제공 데이터 표준화를 하고 데이터 제공기관 참여 유인 마련(인프라 구축비용 지원, 비용 지불 체계마련, 인증평가 제도 개선)을 건강정보 고속도로에서 한다."></p>
+							</div>
+						</div>
+						<!-- //section_02 -->
+
+						<div class="section section_03">
+							<div class="part_01">
+								<p class="summary">국민 스스로 건강정보를 활용할 수 있도록 관련 기술개발을 위해 다양한 방안을 마련합니다.</p>
+								<p class="summary">건강정보 고속도로 플랫폼을 통해 전송된 건강정보가 개인의 동의 하에 앱 등을 통해 원하는 곳에 효과적으로 전달되어 활용될 수 있도록 관련 기술 및 시스템을 개발하는 기술을 지원합니다.</p>
+							</div>
+							<div class="web">
+								<div class="part_02">
+									<div class="panel_01">
+										<p class="tit">데이터<br>제공기관</p>
+										<ul class="item_list">
+											<li class="item_01">공공건강데이터</li>
+											<li class="item_02">병원의료 데이터</li>
+											<li class="item_03">개인건강 데이터</li>
+										</ul>
+									</div>
+									<!-- //panel_01 -->
+									<div class="panel_02">
+										<dl>
+											<dt>전송 표준연계 <br>API</dt>
+											<dd>
+												<ul>
+													<li><span>행정정보 <br>공동이용 <br>시스템</span></li>
+													<li><span>의료기관 유형 <br>및 환경에 따른 <br>연계 구축 지원</span></li>
+													<li><span>국내외 전송 <br>표준 준수</span></li>
+												</ul>
+											</dd>
+										</dl>
+									</div>
+									<!-- //panel_02 -->
+									<div class="panel_03">
+										<dl>
+											<dt>건강 데이터 <br>API</dt>
+											<dd>
+												<ul>
+													<li>환자 기본 정보 API</li>
+													<li>예방 접종 내역 API</li>
+													<li>진단내역 API</li>
+													<li>수술내역 API</li>
+													<li>생체신호 및 상태 API</li>
+												</ul>
+											</dd>
+										</dl>
+									</div>
+									<!-- //panel_03 -->
+									<div class="panel_04">
+										<p class="tit">건강정보 <br>고속도로 플랫폼</p>
+										<dl>
+											<dt>플랫폼 공통 <br>인프라 구축</dt>
+											<dd>
+												<p>통합정보 관리 시스템</p>
+												<p>정보보안 등 인프라</p>
+												<p>웹 포털 구축</p>
+											</dd>
+										</dl>
+										<dl>
+											<dt>사용자 <br>인증체계 구축</dt>
+											<dd>
+												<p>통합 인증체계</p>
+												<p>참여주체 식별체계</p>
+												<p>데이터 제공 동의 및 철회 체계</p>
+											</dd>
+										</dl>
+									</div>
+									<!-- //panel_04 -->
+									<div class="panel_05">
+										<dl>
+											<dt>전송 표준연계 API</dt>
+											<dd>
+												<ul>
+													<li><span>연계 가이드 <br>라인 배포</span></li>
+													<li><span>소프트웨어<br>개발 키트</span></li>
+												</ul>
+											</dd>
+										</dl>
+									</div>
+									<!-- //panel_05 -->
+									<div class="panel_06">
+										<p class="tit">활용기관</p>
+										<ul class="item_list">
+											<li class="item_01">앱</li>
+											<li class="item_02">웹</li>
+										</ul>
+									</div>
+									<!-- //panel_06 -->
+								</div>
+								<!-- //part_02 -->
+							</div>
+							<!-- //web -->
+							<div class="mo">
+								<p class="tc"><img src="../images/renew/cont_mydataService_mo_img_03.png" alt="데이터 제공기관(공공건강 데이터, 병원의료 데이터, 개인건강 데이터)에서 전송 표준연계 API(행정정보 공동이용시스템, 의료기관 유형 및 환경에 따른 연계 구축 지원, 국내외 전송 표준 준수) 다음 건강데이터 API(환자 기본정보 API, 예방 접종내역 API, 진단내역API, 수술내역API, 생체신호 및 상태 API) 다음 건강정보 고속도로 플랫폼(플랫폼 공통 인프라 구축: 통합정보 관리 시스템 정보보안 등 인프라 웹 포털 구축, 사용자 인증체계 구축: 통합 인증체계 참여주제 식별체계 데이터 제공 동의 및 철회 쳬계)  다음 전송 표준연계 API(연계 가이드라인 배포,소프트웨어 개발 키트) 다음 활용기관(앱, 웹)"></p>
+							</div>
+						</div>
+						<!-- //section_03 -->
+
+						<div class="section section_04">
+							<div class="part_01">
+								<p class="summary">국민 스스로 건강정보를 활용할 수 있도록 관련 기술개발을 위해 다양한 방안을 마련합니다.</p>
+								<p class="summary">건강정보 고속도로 플랫폼을 통해 전송된 건강정보가 개인의 동의 하에 앱 등을 통해 원하는 곳에 효과적으로 전달되어 활용될 수 있도록 관련 기술 및 시스템을 개발하는 기술을 지원합니다.</p>
+							</div>
+							<div class="web">
+								<div class="part_02">
+									<div class="panel_01">
+										<p class="txt">건강정보<br>고속도로</p>
+									</div>
+									<div class="panel_02">
+										<div class="box">
+											<p class="txt">데이터 요청</p>
+											<p class="txt">데이터 제공</p>
+										</div>
+									</div>
+									<div class="panel_03">
+										<p class="txt">개인	<span>환자</span></p>
+									</div>
+									<div class="panel_04">
+										<div class="box">
+											<p class="txt">데이터 요청</p>
+											<div class="txt_group">
+												<p class="txt">선택적 제공</p>
+												<p class="txt_02">데이터 제공기관,항목, 기간</p>
+											</div>
+										</div>
+									</div>
+									<div class="panel_05">
+										<dl>
+											<dt>마이데이터</dt>
+											<dd>
+												<p class="txt">(웹/앱/플랫폼)</p>
+												<ul>
+													<li>의료기관/검진센터</li>
+													<li>건강관리서비스 앱</li>
+													<li>나의 건강기록 앱</li>
+													<li>건강관리 사업 <span class="add_txt">*1차 의료 만성질환 관리사업,마이데이터 실증사업 등</span></li>
+													<li>의학 연구플랫폼</li>
+												</ul>
+											</dd>
+										</dl>
+									</div>
+									<div class="panel_06">
+										<dl>
+											<dt>데이터 활용</dt>
+											<dd>
+												<ul>
+													<li>본인 저장·조회 관리</li>
+													<li>의료서비스 활용</li>
+													<li>건강관리·편의제공</li>
+													<li>전자서류 발급 지원</li>
+												</ul>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<!-- //web -->
+							 <div class="mo">
+								<p class="tc"><img src="../images/renew/cont_mydataService_mo_img_04.png" alt="개인(환자)은 건강정보고속도로에 데이터를 요청하고 제공받는다. 마이데이터 앱(웹/앱/플래폼: 의료기관/검진센터, 건강관리서비스앱, 나의 건강기록 앱, 건강관리 사업, 의학 연구플랫폼 등)은 개인(환자)에게 데이터를 요청하고 개인은 선택적 제공한다. 다음 데이터 활용(본인 저장 조회 관리, 의료서비스 활용, 건강관리 편의제공, 전자서류 발급 지원)"></p>
+							</div>
+						</div>
+						<!-- //section_04 -->
+
+						<div class="divider"></div>
+						<h2 class="cont_title">서비스의 장점</h2>
+						<div class="section_05">
+							<dl class="item item_01">
+								<dt>
+									<p class="thumbnail"><img src="../images/renew/cont_mydataService_img_02.png" alt="병원차트에 내용을 적는 사진"></p>
+									<p class="tit">맞춤형 <span>건강관리서비스<span></p>
+								</dt>
+								<dd>
+									<p class="add_ex">개인의 신체적 특성을 고려한 맞춤형 건강관리 서비스가 가능해요.</p>
+									<div class="description">
+										<p>개인의 신체적 특성을 고려한 맞춤형 건강관리 서비스가 가능해집니다.</p>
+										<p>개인의 심박 수, 호흡, 근력 등 개인의 신체적 특성을 기록한 정보를 바탕으로 개인별 맞춤형 건강관리 서비스(식이요법, 운동방법, 바이오리듬 체크 등)를 제공받을 수 있습니다.</p>
+									</div>
+								</dd>
+							</dl>
+							<dl class="item item_02">
+								<dt>
+									<p class="thumbnail"><img src="../images/renew/cont_mydataService_img_03.png" alt="환자를 진찰하는 사진"></p>
+									<p class="tit">효과적인 <span>병원진료</span></p>
+								</dt>
+								<dd>
+									<p class="add_ex">어느 병원에서나 나의 의료정보를 가지고 동일한 진단과 그에 맞는 치료를 받을 수 있어요.</p>
+									<div class="description">
+										<p>나의 건강정보는 개인의 동의 하에 건강정보 고속도로 플랫폼을 통해 전국 어느 의료기관에든 동일한 정보가 전송되어 제공됩니다.</p>
+										<p>이를 통해 전국 어느 의료기관을 방문하더라도 나의 동일한 건강정보를 가지고 그에 맞는 진단과 치료를 받을 수 있습니다.</p>
+									</div>
+								</dd>
+							</dl>
+							<dl class="item item_03">
+								<dt>
+									<p class="thumbnail"><img src="../images/renew/cont_mydataService_img_04.png" alt="런링하고있는 여성 이미지"></p>
+									<p class="tit">다양한 관련기관 <span>서비스 혜택</span></p>
+								</dt>
+								<dd>
+									<p class="add_ex">개인 건강정보를 바탕으로, 정부, 지방자치단체, 공공기관 등의 다양한 혜택과 정보를 제공받을 수 있어요.</p>
+									<div class="description">
+										<p>정부, 지방자치단체, 공공기관은 물론 제약회사 등 기업에서 필요한 나의 건강정보를 정보제공 동의 하에 건강정보 고속도로 플랫폼을 통해 전송함으로써, 이에 따른 다양한 혜택과 정보를 제공받을 수 있습니다.</p>
+									</div>
+								</dd>
+							</dl>
+							<dl class="item item_04">
+								<dt>
+									<p class="thumbnail"><img src="../images/renew/cont_mydataService_img_05.png" alt="주사기에 약을 사진"></p>
+									<p class="tit">첨단 의료기술 <span>연구 활용</span></p>
+								</dt>
+								<dd>
+									<p class="add_ex">개인 건강정보를 의료기관, 대학, 연구소 등에 기부하거나 제공하여 새로운 의료기술 개발에 도움이 될 수 있어요.</p>
+									<div class="description">
+										<p>나의 건강정보를 의료기관, 대학, 연구소 등에 기부하거나 제공하여 백신 및 치료제와 같은 새로운 의약품 개발, 희귀난치질환 치료법 및 의료기기 개발 등 새로운 의료기술 개발에 도움이 될 수 있습니다.</p>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!-- //section_05 -->
+					</div>
+					<!-- //cont -->
+				</div>
+				<!-- //contents_box -->
+			</div>
+			<!-- //right_box -->
+		</div>
+		<!-- //wrap_content -->
+	</div>
+	<!-- //wrap_cont -->
+
+
+
+
+	<!-- 푸터 -->
+	<footer id="footer">
+		<div class="section_01">
+			<div class="inner">
+				<div class="part_01">
+					<div class="tailMenu">
+						<ul>
+							<li><a href="javascript:window.open('https://www.mohw.go.kr')" title="보건복지부 홈페이지로 이동 - 새창"><img src="../images/renew/logo_mohw.png" alt="보건복지부"></a></li>
+							<li><a href="javascript:window.open('https://www.k-his.or.kr')" title="한국보건의료정보원 홈페이지로 이동 - 새창"><img src="../images/renew/logo_khis.png" alt="한국보건의료정보원"></a></li>
+							<li class="policy"><a href="https://www.k-his.or.kr/menu.es?mid=a10603000000">개인정보처리방침</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="part_02">
+					<div class="wamark">
+						<a href="#" onclick="wamark()">web접근성 마크</a>
+					</div>
+					<div class="sns">
+						<ul>
+							<li><a class="youtube" href="#" onclick="javascript:window.open('https://www.youtube.com/@KHIS_sns')" title="새창 - Youtube">유튜브</a></li>
+							<li><a class="blog" href="#" onclick="javascript:window.open('https://m.blog.naver.com/khis_blog?tab=1')" title="새창 - 보건복지부 네이버 블로그">블로그</a></li>
+							<li><a class="instagram" href="#" onclick="javascript:window.open('https://www.instagram.com/khis_insta/')" title="새창 - 보건복지부 인스타그램">인스타그램</a></li>
+						</ul>
+					</div>
+					<div class="wrap_select">
+						<label for="relatedInstList" class="hdn">관련기관 바로가기</label>
+						<select class="f_select" name="relatedInstList" id="relatedInstList" style="cursor: pointer;">
+							<option value="">관련기관 바로가기</option>
+							<option value="https://www.mohw.go.kr">보건복지부</option>
+							<option value="https://www.k-his.or.kr">한국보건의료정보원</option>
+							<option value="https://www.khidi.or.kr">한국보건산업진흥원</option>
+						</select>
+						<button class="btn_select" onclick="goRelatedInstitutionsPage()" title="새창">이동</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section_02">
+			<div class="inner">
+				<div class="part_01">
+					<div class="info">
+						<p class="txt_01">국민과 의료기관이 함께하는 소통의 삼각형</p>
+						<p class="txt_02">건강정보고속도로(나의건강기록 앱) 문의</p>
+						<p class="txt_03">1666-7598</p>
+					</div>
+				</div>
+				<div class="part_02">
+					<div class="addr">
+						<dl>
+							<dt>보건복지부</dt>
+							<dd>
+								<p>(30113) 세종특별자치시 도움4로 13 보건복지부 (정부세종청사 10동)</p>
+								<p>안내전화 : 보건복지상담센터 129 | 당직실 : 044-202-2117 / FAX : 044-202-3910</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt>한국보건의료정보원</dt>
+							<dd>
+								<p>(04513)서울특별시 중구 세종대로 39 11층 한국보건의료정보원(남대문로4가, 대한상공회의소 신관)</p>
+								<p>(04512)서울특별시 중구 칠패로 36 8층 한국보건의료정보원(봉래동 1가, 연세봉래빌딩)</p>
+							</dd>
+						</dl>
+						<p class="copyright">COPYRIGHT ⓒ By MOHW. All rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- 푸터 -->
+
+</body>
+</html>
