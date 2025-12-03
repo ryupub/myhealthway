@@ -32,8 +32,7 @@ body, html{color:var(--text_default);}
 .sub_container{position: relative;min-height:400px;}
 .sub_container .inner{position: relative;width:1200px;margin:0 auto;}
 
-
-.divider {width: 100%;height: 1px; margin:0 0 36px 0; background: #A3A3A3;}
+.section_divider {width: 100%;height: 1px; margin:0 0 36px 0; background: #A3A3A3;}
 
 /* ++++++++++++++++++++++++++++++++++++++++ 
     건강정보 고속도로 소개 
@@ -294,7 +293,7 @@ body, html{color:var(--text_default);}
 .cont_mydataOrg .section_01 .line_01{position:absolute;left:50%;top:-62px;margin-left:-390px; width:150px;height:150px;background:url(../images/renew/cont_mydataOrg_symbol_01.png) no-repeat left top}
 .cont_mydataOrg .section_01 .line_02{position:absolute;right:50%;top:-62px;margin-right:-390px; width:150px;height:150px;background:url(../images/renew/cont_mydataOrg_symbol_03.png) no-repeat right top}
 .cont_mydataOrg .section_01 .line_03{position:absolute;left:50%;top:-62px;margin-left:-25px; width:50px;height:60px;background:url(../images/renew/cont_mydataOrg_symbol_02.png) no-repeat center center}
-.cont_mydataOrg .section_01 .line_04{position:absolute;left:50%;bottom:-62px;margin-left:-25px; width:50px;height:60px;background:url(../images/renew/cont_mydataOrg_symbol_02.png) no-repeat center center;    transform: rotate(180deg);}
+.cont_mydataOrg .section_01 .line_04{position:absolute;left:50%;bottom:-62px;margin-left:-25px; width:50px;height:60px;background:url(../images/renew/cont_mydataOrg_symbol_02.png) no-repeat center center;transform: rotate(180deg);}
 
 /* cont_mydataService section_02 */
 .cont_mydataOrg .section_02 .org_wrap{display: flex;flex-wrap: wrap;justify-content: space-between; width:100%;}
@@ -316,6 +315,43 @@ body, html{color:var(--text_default);}
 .cont_mydataLaw .section_01 .principle_list li .title::before{content:"";display:inline-block;width:17px;height:17px;margin:0 10px 0 0;background:#82ACFF;border-radius: 17px;}
 .cont_mydataLaw .section_01 .principle_list li .desc{text-align: center;font-size: 16px;font-weight: 500;line-height: 150%;word-break: keep-all;}
 .cont_mydataLaw .section_01 .principle_list li:nth-child(even) {background: #EAECFF; border-color: #D6D9FF;}
+
+.cont_mydataLaw .section_02 .law_list dl{padding:18px;border-radius: 20px;border: 2px solid #BCBCBC;background: #FFF;}
+.cont_mydataLaw .section_02 .law_list dl ~ dl{margin-top:25px;}
+.cont_mydataLaw .section_02 .law_list dl dt{margin:0 0 10px 0;}
+.cont_mydataLaw .section_02 .law_list dl dt span{display: inline-block;min-width:190px;padding:5px 24px;font-size: 24px;color: #FFF;font-weight: 600;border-radius: 8px;background: #639CFE;}
+.cont_mydataLaw .section_02 .law_list dl dd .revise{margin:0 0 10px 0;font-size: 18px;font-weight: 700;color:#3370D9;line-height: 130%;}
+.cont_mydataLaw .section_02 .law_list dl dd {padding:0 20px;font-size: 16px;font-weight: 500;line-height: 150%}
+.cont_mydataLaw .section_02 .law_list dl dd .desc_list li{position:relative;padding:0 0 0 20px;}
+.cont_mydataLaw .section_02 .law_list dl dd .desc_list li::before{content:"";display:block;position:absolute;left:10px;top:9px;width:4px;height:4px;background:#191F28;border-radius: 4px;}
+
+.cont_mydataLaw .section_03 .compliance_list{display: flex;align-items: center;justify-content:space-between;position:relative;}
+.cont_mydataLaw .section_03 .compliance_list::before{content:"";display:block;position:absolute;left:0;top:50%;width:100%;height:3px;margin-top:-2px;background:#A4A4A4;}
+.cont_mydataLaw .section_03 .compliance_list li{display: flex;align-items: center;justify-content: center;flex-direction: column;position: relative; width:164px;height:164px;border-radius: 82px;border: 20px solid  #BED8FF;background: #FFF;outline: 2px solid #3370D9;outline-offset: -20px;z-index:2;}
+.cont_mydataLaw .section_03 .compliance_list li .title{margin:0 0 5px 0;font-size: 24px;font-weight: 600;color: #000;text-align: center;}
+.cont_mydataLaw .section_03 .compliance_list li .desc{font-size: 18px;font-weight: 400;line-height:140%;text-align: center;}
+
+/* ++++++++++++++++++++++++++++++++++++++++ 
+    보호 및 활용
+   +++++++++++++++++++++++++++++++++++++++ */
+.cont_mydataProtect .section{margin:0 0 45px 0;}
+
+.cont_mydataProtect .diagram_box{border-radius: 20px;background: #F5F6F8;}
+.cont_mydataProtect .diagram_box img{max-width: 100%;padding:40px;}
+
+.cont_mydataProtect .section_01 .platform_list{display: flex;flex-wrap: wrap;justify-content:space-between;position: relative; max-width: 750px;margin: 0 auto 40px auto; background:url(../images/renew/cont_mydataProtect_bg_01.png) no-repeat center center;}
+.cont_mydataProtect .section_01 .platform_list::after{content:"";display:block;position:absolute;left:50%;top:50%;margin-top:-100px;margin-left:-100px;width:200px;height:200px;background:url(../images/renew/cont_mydataProtect_bg_02.png) no-repeat center center}
+.cont_mydataProtect .section_01 .platform_list dl {flex: 0 1 calc(50% - 10px);max-width:312px;height:240px;margin:0 0 20px 0;padding:30px 30px;border-radius: 16px;border: 2px solid #BED8FF;background: #F4F8FF;}
+.cont_mydataProtect .section_01 .platform_list dl dt{margin:0 0 10px 0;text-align: center;font-size: 20px;font-weight: 700;}
+.cont_mydataProtect .section_01 .platform_list dl dd{text-align: center;font-size: 16px;font-weight: 500;line-height: 150%;}
+
+.cont_mydataProtect .section_02 .organization_list{display: flex;align-items: center;justify-content: center;margin:0 0 40px 0;}
+.cont_mydataProtect .section_02 .organization_list dl {flex:0 0 300px;margin:0 20px;}
+.cont_mydataProtect .section_02 .organization_list dl dt{padding:10px;text-align: center; font-size: 20px;font-weight: 600;border-radius: 10px 10px 0 0;background: #BED8FF;}
+.cont_mydataProtect .section_02 .organization_list dl dd{height:170px;padding:12px 22px;font-size: 16px;font-weight: 500;line-height: 150%;word-break: keep-all;border-radius: 0 0 10px 10px;border: 1px solid  #BED8FF;background: #FFF;}
+
+.cont_mydataProtect .section_03 .desc{margin:0 0 35px 0;font-size: 16px;font-weight: 500;line-height: 150%;}
+
 
 
 
@@ -378,6 +414,16 @@ body, html{color:var(--text_default);}
     .cont_mydataOrg .section_02 .org_wrap .org_card{width:100%;margin:0 0 20px 0;padding:0px;height:auto;background: #fff;}
     .cont_mydataOrg .section_02 .org_wrap .org_card .org_logo{height:85px;padding:10px;}
 
+    .cont_mydataLaw .section_01 .principle_list{display: block;margin:0;}
+    .cont_mydataLaw .section_01 .principle_list li ~ li{margin-top:15px;}
+    .cont_mydataLaw .section_01 .principle_list li .title{text-align: left;font-size: 20px;}
+
+    .cont_mydataLaw .section_02 .law_list dl{padding:15px;}
+    .cont_mydataLaw .section_02 .law_list dl dt span{font-size: 22px;display: block;width:100%;}
+    .cont_mydataLaw .section_02 .law_list dl dd{padding:0 0px;}
+    .cont_mydataLaw .section_03 .compliance_list li{width:140px;height:140px;border-radius: 70px;outline-offset: -10px;border: 10px solid #BED8FF; outline: 1px solid #3370D9;}
+    .cont_mydataLaw .section_03 .compliance_list li .title{font-size: 22px;}
+    
 }
 
 @media (max-width: 767px) {
@@ -396,6 +442,12 @@ body, html{color:var(--text_default);}
     .cont_mydataOrg .web{display: none;}
     .cont_mydataOrg .mo{display: block;}
     .cont_mydataOrg .mo img{max-width:100%;}
+
+    .cont_mydataLaw .section_03 .compliance_list{display: block;}
+    .cont_mydataLaw .section_03 .compliance_list::before{width:1px;height:100%;left: 50%;top: 0%;margin-top:0px;}
+
+    .cont_mydataLaw .section_03 .compliance_list li{margin:0 auto;}
+    .cont_mydataLaw .section_03 .compliance_list li ~ li{margin-top:20px;}
 
 }
 
